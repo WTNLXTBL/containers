@@ -4,7 +4,7 @@
 ### 安装教程:             
 ```sh
 git clone https://github.com/WTNLXTBL/containers
-cd termux-container/package-zh
+cd termux-container/package
 chmod -R 755 DEBIAN
 chmod 777 data/data/com.termux/files/usr/bin/container
 dpkg -b . ~/termux-container.deb
