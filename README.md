@@ -4,10 +4,10 @@
 ### 安装教程:             
 ```sh
 git clone https://github.com/WTNLXTBL/containers
-cd termux-container/package
+cd containers/package
 chmod -R 755 DEBIAN
 chmod 777 data/data/com.termux/files/usr/bin/container
-dpkg -b . ~/termux-container.deb
+dpkg -b . ~/containers.deb
 apt update
-apt install ~/termux-container.deb
+apt install ~/containers.deb
 ```
